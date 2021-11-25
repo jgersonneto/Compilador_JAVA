@@ -1,0 +1,13 @@
+int main( )
+{
+  int n1;
+  float n2;
+  char n3;     
+  if (n1 == n2){  	
+    n2 = 0 + 1.1 * 6 / 10;   
+   }else {   	
+   	n1 = 0;
+   }   
+  while (n1!=n2)   	
+      n3 = 'd';
+}

@@ -1,0 +1,22 @@
+BEGIN 
+	int n1
+	float n2
+	char n3
+	t0 = n1 == n2
+	if_false t0 GOTO L0
+	t1 = (float) 0
+	t2 = (float) 6
+	t3 = 1.1 * t2(6.0)
+	t4 = (float) 10
+	t5 = t3 / t4(10.0)
+	t6 = t1(0.0) + t5
+	n2 = t6
+	L0:
+	n1 = 0
+	L1:
+	t7 = n1 != n2
+	while_false t7 GOTO L2
+	n3 = 'd'
+	GOTO L1
+	L2:
+END
